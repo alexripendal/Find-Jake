@@ -1,12 +1,20 @@
-INSERT MANDATORY GIF
+![](https://media3.giphy.com/media/13Zw8JfsuY6dqM/giphy.gif)
 
-# Project Title
+# Adventure Time!
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+Oh no… Jake has gone missing! Follow Finn the human’s journey to Jake.
+You will enter different surroundings with numerous characters. Ask them if they know of Jake’s whereabouts. 
+
+This is a kind of labyrinth where an action may lead you to a dead end, and another may lead you forward.
+You can return to the previous page and make another decision in order to find your way to Jake.
+
+This project is mainly to get some training in PHP, HTML and CSS and how to integrate these into a whole.
+
+More info to come… As well as a link the project on One.com.
 
 # Installation
 
-Add the installation instructions.
+Installation instructions to come...
 
 # Code Review
 
