@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-text-color: #233b76;
+  --link-color: #fff7ae;
+  --card-bg-color: #ffffeb;
+  --complementary-color: #ff7b87;
+}
+
+/* GENERAL STYLE for all pages */
+body {
+  height: 100vh;
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 40px 0 40px;
+}
+
+h1 {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+h2 {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+p {
+  font-size: 24px;
+}
+
+/* ACTION BUTTONS for all pages */
+.container {
+  padding: 60px;
+  position: absolute;
+  left: 65vw;
+  top: 80vh;
+}
+.action-button {
+  display: flex;
+  justify-content: center;
+  background-color: var(--complementary-color);
+  width: 593px;
+  height: 58px;
+  border-radius: 8px;
+  margin: 40px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.action-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sriracha", cursive;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 48px;
+  color: var(--link-color);
+}
+
+/*------INDEX STYLE------*/
+.index {
+  background-image: url(../img/treehouse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow-button {
+  background: url(../img/arrow.svg) no-repeat;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 183px;
+  height: 97px;
+  right: 100px;
+  top: 90%;
+}
+.worried-finn {
+  width: 150px;
+  position: absolute;
+  left: -40px;
+  top: -40px;
+}
+
+/*------TREE TRUNKS STYLE------*/
+
+.tree-question {
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 15vh;
+  left: 8vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.tree-answer {
+  width: 450px;
+  padding: 40px;
+  position: relative;
+  bottom: 45vh;
+  left: 75vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.treetrunks {
+  background-color: #fff7ae;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.background-treetrunks {
+  position: absolute;
+  top: 0vh;
+  right: 25vw;
+}
+
+.finn-tree {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------LAKE STYLE------*/
+.lake {
+  background-color: #16626f;
+  background-image: url(../img/friend-sea-creature.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+.finn-lake {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------BMO STYLE------*/
+.bmo-question-1 {
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 0vh;
+  left: 16vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.bmo-answer-1 {
+  width: 450px;
+  padding: 40px;
+  position: relative;
+  bottom: 60vh;
+  left: 40vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+.bmo-question-2 {
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 48vh;
+  left: 23vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.bmo-answer-2 {
+  width: 450px;
+  padding: 40px;
+  position: relative;
+  bottom: 20vh;
+  left: 26vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
+}
+
+.BMO {
+  background-color: #d4f4de;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+.background-bmo {
+  position: absolute;
+  bottom: 20vh;
+  right: 5vw;
+}
+.finn-bmo {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------CANDY KINGDOM STYLE------*/
+.candy-kingdom {
+  background-color: #ffcadd;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.background-candy {
+  position: absolute;
+  top: 0vh;
+  right: 10vw;
+}
+
+.finn-candy {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------ICE KING STYLE------*/
+.ice-king {
+  background-image: url(../img/iceking.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.finn-ice-king {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------LUMPY SPACE PRINCESS STYLE------*/
+.lumpy-space-princess {
+  background-color: #f2e3fd;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+.background-lsp {
+  position: absolute;
+  top: 0vh;
+  right: 10vw;
+}
+
+.finn-lsp {
+  width: 400px;
+  position: fixed;
+  bottom: 0;
+}
+
+/*------CLIMBING MOUNTAIN STYLE------*/
+.climbing {
+  background-color: #2fc4ee;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.climbing .card {
+  top: 20vh;
+}
+.climbing img {
+  width: 400px;
+}
+
+.background-climbing {
+  position: absolute;
+  bottom: 200px;
+  left: 248px;
+}
+.shout-box p {
+  display: flex;
+  font-family: "Sriracha", cursive;
+  font-size: 132px;
+  color: var(--card-bg-color);
+  margin-right: 400px;
+}
