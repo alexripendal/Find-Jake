@@ -13,7 +13,7 @@
 body {
   height: 100vh;
   color: var(--main-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   position: relative;
   justify-content: center;
@@ -22,13 +22,13 @@ body {
 }
 
 h1 {
-  font-family: "Sriracha", cursive;
+  font-family: 'Sriracha', cursive;
   text-align: center;
   font-size: 48px;
   margin: 0;
 }
 h2 {
-  font-family: "Sriracha", cursive;
+  font-family: 'Sriracha', cursive;
   text-align: center;
   font-size: 36px;
   margin: 0 0 20px;
@@ -59,7 +59,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Sriracha", cursive;
+  font-family: 'Sriracha', cursive;
   text-decoration: none;
   cursor: pointer;
   font-size: 48px;
@@ -71,6 +71,18 @@ p {
   background-image: url(../img/treehouse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card {
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 15vh;
+  left: 8vw;
+  flex-wrap: wrap;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #808080;
 }
 
 .arrow-button {
@@ -298,7 +310,7 @@ p {
 }
 .shout-box p {
   display: flex;
-  font-family: "Sriracha", cursive;
+  font-family: 'Sriracha', cursive;
   font-size: 132px;
   color: var(--card-bg-color);
   margin-right: 400px;
